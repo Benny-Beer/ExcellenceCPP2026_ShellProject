@@ -8,12 +8,19 @@
 #include <unistd.h>
 #include <sys/wait.h>
 
+class ShellModel;
 // --- Command Pattern: Interface ---
 class BuiltInCommand {
+private:
+    ShellModel *model;
 public:
     virtual ~BuiltInCommand() = default;
     virtual std::string getName() const = 0;
     virtual void execute(const std::vector<std::string>& args) = 0;
+    
+    public BuiltInCommand() {}
+    public BuiltInCommand(ShellModel *theModel) { model = theModel;}
+    
 };
 
 // --- Concrete Built-in: cd ---
