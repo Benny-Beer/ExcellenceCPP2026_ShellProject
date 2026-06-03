@@ -1,0 +1,7 @@
+/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/build/CMakeFiles/ex01.dir
+/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/build/CMakeFiles/edit_cache.dir
+/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/build/CMakeFiles/rebuild_cache.dir
+/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/build/include/CMakeFiles/edit_cache.dir
+/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/build/include/CMakeFiles/rebuild_cache.dir
+/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/build/src/CMakeFiles/edit_cache.dir
+/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/build/src/CMakeFiles/rebuild_cache.dir
