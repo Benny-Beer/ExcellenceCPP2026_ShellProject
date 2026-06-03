@@ -297,6 +297,30 @@ src/commands/ExitCommand.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/commands/ExitCommand.cpp.s
 .PHONY : src/commands/ExitCommand.cpp.s
 
+src/commands/MyHistoryCommand.o: src/commands/MyHistoryCommand.cpp.o
+.PHONY : src/commands/MyHistoryCommand.o
+
+# target to build an object file
+src/commands/MyHistoryCommand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.o
+.PHONY : src/commands/MyHistoryCommand.cpp.o
+
+src/commands/MyHistoryCommand.i: src/commands/MyHistoryCommand.cpp.i
+.PHONY : src/commands/MyHistoryCommand.i
+
+# target to preprocess a source file
+src/commands/MyHistoryCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.i
+.PHONY : src/commands/MyHistoryCommand.cpp.i
+
+src/commands/MyHistoryCommand.s: src/commands/MyHistoryCommand.cpp.s
+.PHONY : src/commands/MyHistoryCommand.s
+
+# target to generate assembly for a file
+src/commands/MyHistoryCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.s
+.PHONY : src/commands/MyHistoryCommand.cpp.s
+
 src/commands/MyJobsCommand.o: src/commands/MyJobsCommand.cpp.o
 .PHONY : src/commands/MyJobsCommand.o
 
@@ -320,6 +344,30 @@ src/commands/MyJobsCommand.s: src/commands/MyJobsCommand.cpp.s
 src/commands/MyJobsCommand.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/commands/MyJobsCommand.cpp.s
 .PHONY : src/commands/MyJobsCommand.cpp.s
+
+src/commands/PwdCommand.o: src/commands/PwdCommand.cpp.o
+.PHONY : src/commands/PwdCommand.o
+
+# target to build an object file
+src/commands/PwdCommand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.o
+.PHONY : src/commands/PwdCommand.cpp.o
+
+src/commands/PwdCommand.i: src/commands/PwdCommand.cpp.i
+.PHONY : src/commands/PwdCommand.i
+
+# target to preprocess a source file
+src/commands/PwdCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.i
+.PHONY : src/commands/PwdCommand.cpp.i
+
+src/commands/PwdCommand.s: src/commands/PwdCommand.cpp.s
+.PHONY : src/commands/PwdCommand.s
+
+# target to generate assembly for a file
+src/commands/PwdCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.s
+.PHONY : src/commands/PwdCommand.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -375,9 +423,15 @@ help:
 	@echo "... src/commands/ExitCommand.o"
 	@echo "... src/commands/ExitCommand.i"
 	@echo "... src/commands/ExitCommand.s"
+	@echo "... src/commands/MyHistoryCommand.o"
+	@echo "... src/commands/MyHistoryCommand.i"
+	@echo "... src/commands/MyHistoryCommand.s"
 	@echo "... src/commands/MyJobsCommand.o"
 	@echo "... src/commands/MyJobsCommand.i"
 	@echo "... src/commands/MyJobsCommand.s"
+	@echo "... src/commands/PwdCommand.o"
+	@echo "... src/commands/PwdCommand.i"
+	@echo "... src/commands/PwdCommand.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -195,6 +195,34 @@ CMakeFiles/ex01.dir/src/commands/MyJobsCommand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ex01.dir/src/commands/MyJobsCommand.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/commands/MyJobsCommand.cpp -o CMakeFiles/ex01.dir/src/commands/MyJobsCommand.cpp.s
 
+CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.o: CMakeFiles/ex01.dir/flags.make
+CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.o: /home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/commands/PwdCommand.cpp
+CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.o: CMakeFiles/ex01.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.o -MF CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.o.d -o CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.o -c /home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/commands/PwdCommand.cpp
+
+CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/commands/PwdCommand.cpp > CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.i
+
+CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/commands/PwdCommand.cpp -o CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.s
+
+CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.o: CMakeFiles/ex01.dir/flags.make
+CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.o: /home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/commands/MyHistoryCommand.cpp
+CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.o: CMakeFiles/ex01.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.o -MF CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.o.d -o CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.o -c /home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/commands/MyHistoryCommand.cpp
+
+CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/commands/MyHistoryCommand.cpp > CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.i
+
+CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/commands/MyHistoryCommand.cpp -o CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.s
+
 # Object files for target ex01
 ex01_OBJECTS = \
 "CMakeFiles/ex01.dir/src/main.cpp.o" \
@@ -205,7 +233,9 @@ ex01_OBJECTS = \
 "CMakeFiles/ex01.dir/src/ShellExecuter.cpp.o" \
 "CMakeFiles/ex01.dir/src/commands/CdCommand.cpp.o" \
 "CMakeFiles/ex01.dir/src/commands/ExitCommand.cpp.o" \
-"CMakeFiles/ex01.dir/src/commands/MyJobsCommand.cpp.o"
+"CMakeFiles/ex01.dir/src/commands/MyJobsCommand.cpp.o" \
+"CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.o" \
+"CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.o"
 
 # External object files for target ex01
 ex01_EXTERNAL_OBJECTS =
@@ -219,9 +249,11 @@ ex01: CMakeFiles/ex01.dir/src/ShellExecuter.cpp.o
 ex01: CMakeFiles/ex01.dir/src/commands/CdCommand.cpp.o
 ex01: CMakeFiles/ex01.dir/src/commands/ExitCommand.cpp.o
 ex01: CMakeFiles/ex01.dir/src/commands/MyJobsCommand.cpp.o
+ex01: CMakeFiles/ex01.dir/src/commands/PwdCommand.cpp.o
+ex01: CMakeFiles/ex01.dir/src/commands/MyHistoryCommand.cpp.o
 ex01: CMakeFiles/ex01.dir/build.make
 ex01: CMakeFiles/ex01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ex01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ex01"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex01.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

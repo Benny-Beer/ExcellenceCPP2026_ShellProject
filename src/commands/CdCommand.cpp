@@ -7,11 +7,21 @@ static bool registered = BuiltInCommandContainer::registerCommand(
 
 void CdCommand::execute(const std::vector<std::string>& args)
 {
+    std::string path;
+
     if (args.size() < 2) {
-        std::cerr << "cd: missing argument\n";
-        return;
+        // no argument - go to $HOME
+        const char* home = getenv("HOME");
+        if (home == nullptr) {
+            std::cerr << "cd: HOME not set\n";
+            return;
+        }
+        path = std::string(home);
+    } else {
+        path = args[1];
     }
-    if (chdir(args[1].c_str()) != 0) {
+
+    if (chdir(path.c_str()) != 0) {
         perror("cd failed");
     }
 }
