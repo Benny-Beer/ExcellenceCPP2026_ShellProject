@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ex01.dir/src/commands/CdCommand.cpp.o.d"
   "CMakeFiles/ex01.dir/src/commands/ExitCommand.cpp.o"
   "CMakeFiles/ex01.dir/src/commands/ExitCommand.cpp.o.d"
+  "CMakeFiles/ex01.dir/src/commands/MyJobsCommand.cpp.o"
+  "CMakeFiles/ex01.dir/src/commands/MyJobsCommand.cpp.o.d"
   "CMakeFiles/ex01.dir/src/main.cpp.o"
   "CMakeFiles/ex01.dir/src/main.cpp.o.d"
   "ex01"

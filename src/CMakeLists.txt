@@ -7,4 +7,5 @@
     "ShellExecuter.cpp"
     "commands/CdCommand.cpp"
     "commands/ExitCommand.cpp"
+    "commands/MyJobsCommand.cpp"
 )

@@ -58,7 +58,10 @@ void ExternalExecutor::execute(const std::vector<std::string>& args, bool isBack
     }
     // parent process
     if (isBackground) {
-        ShellModel::getInstance().addJob(pid, args[0]);
+        std::string fullCommand;
+        for (const auto& arg : args) fullCommand += arg + " ";
+        fullCommand.pop_back();
+        ShellModel::getInstance().addJob(pid, fullCommand);
     } else {
         waitpid(pid, nullptr, 0);
     }

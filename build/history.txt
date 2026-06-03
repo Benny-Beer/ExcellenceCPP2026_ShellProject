@@ -3,3 +3,23 @@ pwd
 echo $HOME
 sleep 3 &
 exit
+sleep 10 &
+slep 1 &
+myJobs
+exit
+slepp 10 &
+sleep 1 &
+myjobs
+myjobs
+exit
+sleep 10 &
+myjobs
+exit
+sleep 10 &
+sleep 10 &
+myjobs
+exit
+sleep 15 &
+sleep 10 &
+myjobs
+exit

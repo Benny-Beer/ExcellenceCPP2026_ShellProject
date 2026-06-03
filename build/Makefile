@@ -297,6 +297,30 @@ src/commands/ExitCommand.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/commands/ExitCommand.cpp.s
 .PHONY : src/commands/ExitCommand.cpp.s
 
+src/commands/MyJobsCommand.o: src/commands/MyJobsCommand.cpp.o
+.PHONY : src/commands/MyJobsCommand.o
+
+# target to build an object file
+src/commands/MyJobsCommand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/commands/MyJobsCommand.cpp.o
+.PHONY : src/commands/MyJobsCommand.cpp.o
+
+src/commands/MyJobsCommand.i: src/commands/MyJobsCommand.cpp.i
+.PHONY : src/commands/MyJobsCommand.i
+
+# target to preprocess a source file
+src/commands/MyJobsCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/commands/MyJobsCommand.cpp.i
+.PHONY : src/commands/MyJobsCommand.cpp.i
+
+src/commands/MyJobsCommand.s: src/commands/MyJobsCommand.cpp.s
+.PHONY : src/commands/MyJobsCommand.s
+
+# target to generate assembly for a file
+src/commands/MyJobsCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/commands/MyJobsCommand.cpp.s
+.PHONY : src/commands/MyJobsCommand.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -351,6 +375,9 @@ help:
 	@echo "... src/commands/ExitCommand.o"
 	@echo "... src/commands/ExitCommand.i"
 	@echo "... src/commands/ExitCommand.s"
+	@echo "... src/commands/MyJobsCommand.o"
+	@echo "... src/commands/MyJobsCommand.i"
+	@echo "... src/commands/MyJobsCommand.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
