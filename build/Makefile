@@ -153,6 +153,30 @@ src/BuiltInCommand.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/BuiltInCommand.cpp.s
 .PHONY : src/BuiltInCommand.cpp.s
 
+src/ExternalExecutor.o: src/ExternalExecutor.cpp.o
+.PHONY : src/ExternalExecutor.o
+
+# target to build an object file
+src/ExternalExecutor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/ExternalExecutor.cpp.o
+.PHONY : src/ExternalExecutor.cpp.o
+
+src/ExternalExecutor.i: src/ExternalExecutor.cpp.i
+.PHONY : src/ExternalExecutor.i
+
+# target to preprocess a source file
+src/ExternalExecutor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/ExternalExecutor.cpp.i
+.PHONY : src/ExternalExecutor.cpp.i
+
+src/ExternalExecutor.s: src/ExternalExecutor.cpp.s
+.PHONY : src/ExternalExecutor.s
+
+# target to generate assembly for a file
+src/ExternalExecutor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/ExternalExecutor.cpp.s
+.PHONY : src/ExternalExecutor.cpp.s
+
 src/Model.o: src/Model.cpp.o
 .PHONY : src/Model.o
 
@@ -176,6 +200,54 @@ src/Model.s: src/Model.cpp.s
 src/Model.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/Model.cpp.s
 .PHONY : src/Model.cpp.s
+
+src/Parser.o: src/Parser.cpp.o
+.PHONY : src/Parser.o
+
+# target to build an object file
+src/Parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/Parser.cpp.o
+.PHONY : src/Parser.cpp.o
+
+src/Parser.i: src/Parser.cpp.i
+.PHONY : src/Parser.i
+
+# target to preprocess a source file
+src/Parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/Parser.cpp.i
+.PHONY : src/Parser.cpp.i
+
+src/Parser.s: src/Parser.cpp.s
+.PHONY : src/Parser.s
+
+# target to generate assembly for a file
+src/Parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/Parser.cpp.s
+.PHONY : src/Parser.cpp.s
+
+src/ShellExecuter.o: src/ShellExecuter.cpp.o
+.PHONY : src/ShellExecuter.o
+
+# target to build an object file
+src/ShellExecuter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/ShellExecuter.cpp.o
+.PHONY : src/ShellExecuter.cpp.o
+
+src/ShellExecuter.i: src/ShellExecuter.cpp.i
+.PHONY : src/ShellExecuter.i
+
+# target to preprocess a source file
+src/ShellExecuter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/ShellExecuter.cpp.i
+.PHONY : src/ShellExecuter.cpp.i
+
+src/ShellExecuter.s: src/ShellExecuter.cpp.s
+.PHONY : src/ShellExecuter.s
+
+# target to generate assembly for a file
+src/ShellExecuter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/ShellExecuter.cpp.s
+.PHONY : src/ShellExecuter.cpp.s
 
 src/commands/CdCommand.o: src/commands/CdCommand.cpp.o
 .PHONY : src/commands/CdCommand.o
@@ -261,9 +333,18 @@ help:
 	@echo "... src/BuiltInCommand.o"
 	@echo "... src/BuiltInCommand.i"
 	@echo "... src/BuiltInCommand.s"
+	@echo "... src/ExternalExecutor.o"
+	@echo "... src/ExternalExecutor.i"
+	@echo "... src/ExternalExecutor.s"
 	@echo "... src/Model.o"
 	@echo "... src/Model.i"
 	@echo "... src/Model.s"
+	@echo "... src/Parser.o"
+	@echo "... src/Parser.i"
+	@echo "... src/Parser.s"
+	@echo "... src/ShellExecuter.o"
+	@echo "... src/ShellExecuter.i"
+	@echo "... src/ShellExecuter.s"
 	@echo "... src/commands/CdCommand.o"
 	@echo "... src/commands/CdCommand.i"
 	@echo "... src/commands/CdCommand.s"

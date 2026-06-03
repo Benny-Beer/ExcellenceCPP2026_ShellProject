@@ -9,7 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/BuiltInCommand.cpp" "CMakeFiles/ex01.dir/src/BuiltInCommand.cpp.o" "gcc" "CMakeFiles/ex01.dir/src/BuiltInCommand.cpp.o.d"
+  "/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/ExternalExecutor.cpp" "CMakeFiles/ex01.dir/src/ExternalExecutor.cpp.o" "gcc" "CMakeFiles/ex01.dir/src/ExternalExecutor.cpp.o.d"
   "/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/Model.cpp" "CMakeFiles/ex01.dir/src/Model.cpp.o" "gcc" "CMakeFiles/ex01.dir/src/Model.cpp.o.d"
+  "/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/Parser.cpp" "CMakeFiles/ex01.dir/src/Parser.cpp.o" "gcc" "CMakeFiles/ex01.dir/src/Parser.cpp.o.d"
+  "/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/ShellExecuter.cpp" "CMakeFiles/ex01.dir/src/ShellExecuter.cpp.o" "gcc" "CMakeFiles/ex01.dir/src/ShellExecuter.cpp.o.d"
   "/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/commands/CdCommand.cpp" "CMakeFiles/ex01.dir/src/commands/CdCommand.cpp.o" "gcc" "CMakeFiles/ex01.dir/src/commands/CdCommand.cpp.o.d"
   "/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/commands/ExitCommand.cpp" "CMakeFiles/ex01.dir/src/commands/ExitCommand.cpp.o" "gcc" "CMakeFiles/ex01.dir/src/commands/ExitCommand.cpp.o.d"
   "/home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/main.cpp" "CMakeFiles/ex01.dir/src/main.cpp.o" "gcc" "CMakeFiles/ex01.dir/src/main.cpp.o.d"

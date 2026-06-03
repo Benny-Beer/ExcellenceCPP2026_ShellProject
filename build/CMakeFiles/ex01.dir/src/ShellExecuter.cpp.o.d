@@ -1,5 +1,5 @@
-CMakeFiles/ex01.dir/src/main.cpp.o: \
- /home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/main.cpp \
+CMakeFiles/ex01.dir/src/ShellExecuter.cpp.o: \
+ /home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/src/ShellExecuter.cpp \
  /usr/include/stdc-predef.h \
  /home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/include/ShellExecuter.h \
  /home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/include/BuiltInCommand.h \
@@ -211,5 +211,12 @@ CMakeFiles/ex01.dir/src/main.cpp.o: \
  /usr/include/c++/13/pstl/execution_defs.h \
  /home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/include/Parser.h \
  /home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/include/ExternalExecutor.h \
+ /home/ben_beer/ExcellenceCPP2026/ExcellenceCPP2026_ShellProject/include/Model.h \
+ /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
+ /usr/include/c++/13/bits/algorithmfwd.h \
+ /usr/include/c++/13/bits/stl_heap.h \
+ /usr/include/c++/13/bits/uniform_int_dist.h \
+ /usr/include/c++/13/bits/ranges_algo.h \
+ /usr/include/c++/13/pstl/glue_algorithm_defs.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc
